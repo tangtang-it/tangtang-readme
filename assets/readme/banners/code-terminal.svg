@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">项目标题 Banner - 代码终端风</title>
+  <desc id="desc">终端窗口模拟、等宽字体、深色代码编辑器的 GitHub README Banner，适合CLI工具和开发者项目</desc>
+  <defs>
+    <linearGradient id="terminal-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1b26"/><stop offset="100%" stop-color="#16161e"/>
+    </linearGradient>
+    <linearGradient id="titlebar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2b36"/><stop offset="100%" stop-color="#1e1f2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="10" fill="#0d0d15"/>
+  <!-- 终端外边框 -->
+  <rect x="60" y="30" width="1080" height="360" rx="8" fill="url(#terminal-bg)" stroke="#2a2b36" stroke-width="1.5"/>
+  <!-- 标题栏 -->
+  <rect x="60" y="30" width="1080" height="38" rx="8" fill="url(#titlebar)"/>
+  <rect x="60" y="50" width="1080" height="18" fill="url(#titlebar)"/>
+  <!-- 窗口按钮 -->
+  <circle cx="82" cy="49" r="6" fill="#ff5f57"/><circle cx="102" cy="49" r="6" fill="#febc2e"/><circle cx="122" cy="49" r="6" fill="#28c840"/>
+  <!-- 标题栏文字 -->
+  <text x="600" y="53" font-family="Consolas,'Courier New',monospace" font-size="12" font-weight="600" text-anchor="middle" fill="#6e7681">bash — 80x24</text>
+  <!-- 提示符和命令 -->
+  <text x="90" y="100" font-family="Consolas,'Courier New',monospace" font-size="15" font-weight="700" fill="#28c840">$</text>
+  <text x="112" y="100" font-family="Consolas,'Courier New',monospace" font-size="15" font-weight="400" fill="#e6e6e6"> cat README.md</text>
+  <!-- 输出分隔线 -->
+  <line x1="90" y1="115" x2="1110" y2="115" stroke="#2a2b36" stroke-width="1"/>
+  <!-- 输出内容 - 标题 -->
+  <text x="90" y="150" font-family="Consolas,'Courier New',monospace" font-size="11" fill="#6e7681">/*─────────────────────────────────────────────*/</text>
+  <!-- 大标题 -->
+  <text x="90" y="195" font-family="Consolas,'Courier New',monospace" font-size="50" font-weight="900" fill="#7aa2f7">项目名称</text>
+  <!-- 描述 -->
+  <text x="90" y="235" font-family="Consolas,'Courier New',monospace" font-size="18" font-weight="600" fill="#9ece6a">// 一句话价值主张</text>
+  <text x="90" y="268" font-family="Consolas,'Courier New',monospace" font-size="14" fill="#565f89">// 简短描述项目的核心功能，让开发者一眼理解</text>
+  <!-- 分割 -->
+  <text x="90" y="305" font-family="Consolas,'Courier New',monospace" font-size="11" fill="#6e7681">/*─────────────────────────────────────────────*/</text>
+  <!-- 提示符2 -->
+  <text x="90" y="345" font-family="Consolas,'Courier New',monospace" font-size="15" font-weight="700" fill="#28c840">$</text>
+  <text x="112" y="345" font-family="Consolas,'Courier New',monospace" font-size="15" font-weight="400" fill="#565f89">npm install -g project-name</text>
+  <!-- 右栏快速信息 -->
+  <text x="760" y="155" font-family="Consolas,'Courier New',monospace" font-size="12" font-weight="700" fill="#bb9af7">Repository Info</text>
+  <text x="760" y="180" font-family="Consolas,'Courier New',monospace" font-size="11" fill="#565f89">├─ Language:  TypeScript</text>
+  <text x="760" y="200" font-family="Consolas,'Courier New',monospace" font-size="11" fill="#565f89">├─ License:   MIT</text>
+  <text x="760" y="220" font-family="Consolas,'Courier New',monospace" font-size="11" fill="#565f89">├─ Version:   v1.0.0</text>
+  <text x="760" y="240" font-family="Consolas,'Courier New',monospace" font-size="11" fill="#565f89">└─ Stars:     1.2k</text>
+  <!-- 光标闪烁效果（静态表示） -->
+  <rect x="565" y="183" width="10" height="45" fill="#c0caf5" opacity="0.8"/>
+</svg>

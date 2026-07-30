@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">项目标题 Banner - 渐变现代</title>
+  <desc id="desc">全屏渐变、玻璃拟态卡片、圆润阴影的现代设计风格 GitHub README Banner</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#667eea"/><stop offset="50%" stop-color="#764ba2"/><stop offset="100%" stop-color="#f093fb"/>
+    </linearGradient>
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#667eea"/><stop offset="100%" stop-color="#f093fb"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f093fb"/><stop offset="100%" stop-color="#f5576c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#spotlight)"/>
+  <!-- 装饰圆 -->
+  <circle cx="150" cy="100" r="80" fill="#ffffff" opacity="0.06"/><circle cx="1050" cy="320" r="100" fill="#ffffff" opacity="0.06"/>
+  <circle cx="400" cy="350" r="50" fill="#ffffff" opacity="0.04"/><circle cx="800" cy="80" r="60" fill="#ffffff" opacity="0.04"/>
+  <!-- 模糊光晕 -->
+  <circle cx="300" cy="200" r="120" fill="#667eea" opacity="0.2"/><circle cx="900" cy="200" r="120" fill="#f093fb" opacity="0.2"/>
+  <!-- 玻璃卡片 -->
+  <rect x="220" y="85" width="760" height="250" rx="20" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1"/>
+  <!-- 装饰线 -->
+  <line x1="300" y1="65" x2="400" y2="65" stroke="#ffffff" stroke-opacity="0.3" stroke-width="2" stroke-linecap="round"/>
+  <line x1="800" y1="355" x2="900" y2="355" stroke="#ffffff" stroke-opacity="0.3" stroke-width="2" stroke-linecap="round"/>
+  <!-- 主标题 -->
+  <text x="600" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="78" font-weight="900" text-anchor="middle" fill="#ffffff" letter-spacing="-0.02em">项目名称</text>
+  <!-- 副标题渐变下划线 -->
+  <rect x="420" y="205" width="360" height="4" rx="2" fill="url(#accent)"/>
+  <text x="600" y="245" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="22" font-weight="600" text-anchor="middle" fill="#ffffff" fill-opacity="0.95">一句话价值主张</text>
+  <text x="600" y="285" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#ffffff" fill-opacity="0.7">简短描述项目的核心功能与价值</text>
+  <!-- 标签 -->
+  <g transform="translate(400,320)">
+    <rect x="0" y="0" width="95" height="30" rx="15" fill="#ffffff" fill-opacity="0.15" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="47" y="21" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#ffffff">现代化</text>
+  </g>
+  <g transform="translate(515,320)">
+    <rect x="0" y="0" width="95" height="30" rx="15" fill="#ffffff" fill-opacity="0.15" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="47" y="21" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#ffffff">高性能</text>
+  </g>
+  <g transform="translate(630,320)">
+    <rect x="0" y="0" width="95" height="30" rx="15" fill="#f093fb" fill-opacity="0.4" stroke="#ffffff" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="47" y="21" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#ffffff">开源</text>
+  </g>
+  <g transform="translate(745,320)">
+    <rect x="0" y="0" width="95" height="30" rx="15" fill="#ffffff" fill-opacity="0.15" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="47" y="21" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#ffffff">MIT</text>
+  </g>
+</svg>

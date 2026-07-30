@@ -1,164 +1,190 @@
-<p align="right">
-  <strong>English</strong> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a>
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="糖糖it README 美化坊 - 让每个开源项目，都有第一眼吸引力">
 </p>
 
 <p align="center">
-  <img src="./assets/readme/en/hero.gif" width="100%" alt="Beautify GitHub README: help visitors understand a repository at first glance.">
+  <a href="#-关于糖糖it">关于</a> ·
+  <a href="#-banner-样式集合">Banner 样式</a> ·
+  <a href="#-快速开始">快速开始</a> ·
+  <a href="#-工具脚本">工具脚本</a>
 </p>
-
-<p align="center">
-  <img src="./assets/readme/en/theme-wall.svg" width="100%" alt="Six project-native README directions for developer tools, AI products, design resources, research, creator projects, and open-source libraries.">
-</p>
-
-<p align="center">
-  <img src="./assets/readme/en/section-used-by.svg" width="100%" alt="Real repositories already using beautify-github-readme.">
-</p>
-
-These are not hypothetical templates. The method is already used by eight public repositories, each with its own visual language and content structure:
-
-- **[oil-ppt](https://github.com/oil-oil/oil-ppt)** — presents the method, results, and first-use path for programmatic slide creation in one visual system.
-- **[draw-ui](https://github.com/oil-oil/draw-ui)** — uses real UI outputs to explain the path from a brief and reference images to HTML/CSS reconstruction.
-- **[oil-icon](https://github.com/oil-oil/oil-icon)** — uses real icon sets to explain style locking, batch generation, slicing, and transparent delivery.
-- **[Selector](https://github.com/oil-oil/selector)** — puts page selection, structured context, and real output directly into the opening screen and examples.
-- **[codex-dev-team](https://github.com/oil-oil/codex-dev-team)** — uses a character-driven team map to explain how one main Codex thread delegates exploration, bounded implementation, and independent review to four custom agents.
-- **[torqueDASH-Next](https://github.com/moesix/torque-dash-next)** — uses a project-native SVG hero with OBD-II PID data and a real dashboard screenshot to explain a self-hosted vehicle telemetry dashboard.
-- **[summertown](https://github.com/SummerPapaya/summertown)** — uses a seaside-map hero and landmark showcase to introduce an interactive town map.
-- **[Wolfcha](https://github.com/oil-oil/wolfcha)** — combines SVG typography and an AI-generated character cutout to turn “play Werewolf solo” into a cinematic, project-native opening screen.
-
-If this Skill helped you create a public README you are proud of, you are welcome to propose it for this list in a PR. This is completely optional: the footer signature is appreciated but never required, and showcase submissions remain subject to maintainer review.
-
-Below are four independent hero directions. They do not share one house style; each derives its typography, color, composition, and proof from the project itself.
-
-<p align="center">
-  <img src="./assets/readme/en/case-kubernetes.svg" width="100%" alt="Kubernetes README hero example with a black system layout and cluster relationship diagram.">
-</p>
-
-<p align="center">
-  <img src="./assets/readme/en/case-postgresql.svg" width="100%" alt="PostgreSQL README hero example with a deep blue editorial layout and relational tables.">
-</p>
-
-<p align="center">
-  <img src="./assets/readme/en/case-block-world.png" width="100%" alt="Block World hybrid README hero combining pixel-style SVG composition with an AI-generated builder character cutout.">
-</p>
-
-**Block World** shows a playful hybrid direction: SVG builds the pixel typography, grid, labels, and scene structure, while ImageGen and chroma-key removal supply the character that would be cumbersome to draw deterministically.
-
-<p align="center">
-  <a href="https://github.com/oil-oil/wolfcha">
-    <img src="./assets/readme/en/case-wolfcha.png" width="100%" alt="Wolfcha hybrid README hero combining precise SVG typography and table graphics with an AI-generated wolf game master.">
-  </a>
-</p>
-
-**[Wolfcha](https://github.com/oil-oil/wolfcha)** is a real hybrid case: ImageGen created the project-specific wolf game master, a fixed chroma-key workflow removed the background, and SVG kept the typography, moonlit table, seat map, and composition precise.
-
-<p align="center">
-  <img src="./assets/readme/en/section-why.svg" width="100%" alt="01 Make the project clear before asking people to keep reading.">
-</p>
-
-Most repositories already contain enough information. The problem is usually the order: visitors see internal terminology, installation commands, and directory trees before they understand what the project is for.
-
-`beautify-github-readme` reads the real repository first, identifies the clearest value and proof, and only then decides how the page should look.
-
-<p align="center">
-  <img src="./assets/readme/en/before-after.svg" width="100%" alt="A README changing from dense information with no clear entry point to a value, proof, method, and first-use sequence.">
-</p>
-
-In whole-README mode, it works across three layers:
-
-| Content | Visual system | Engineering |
-| --- | --- | --- |
-| Remove repetition, move proof forward, and replace internal jargon with concrete outcomes | Derive color, typography, composition, and project-native motifs before designing the hero and supporting modules | Keep assets GitHub-safe, images accessible, commands copyable, and body text searchable |
-
-Different projects should not receive the same template. A CLI can use command rhythm and cursors; an icon system can use keylines and cutouts; a research repository can use coordinates, charts, and evidence labels.
-
-<p align="center">
-  <img src="./assets/readme/en/section-method.svg" width="100%" alt="02 Put visual identity in SVG and readable content in Markdown.">
-</p>
-
-GitHub READMEs do not have the layout freedom of a website. This Skill separates the visual and content layers:
-
-- SVG handles editable heroes, section transitions, comparisons, diagrams, and identity.
-- Hybrid SVG composition combines deterministic SVG layout with optional AI-generated, background-removed subjects for characters, organic texture, complex materials, and cinematic lighting.
-- GIF handles approved motion while the static SVG remains the editable fallback.
-- Motion is opt-in and is never generated by default.
-- PNG/WebP handles screenshots, generated artwork, and complex showcase walls.
-- Markdown handles explanations, commands, links, configuration, and contribution details.
-
-The result can feel designed without becoming one long image that nobody can search, copy, or maintain.
-
-The reusable production guidance lives here:
-
-- [Designing a project-native hero](./skills/beautify-github-readme/references/project-native-hero.md)
-- [Writing GitHub-safe README SVGs](./skills/beautify-github-readme/references/svg-production.md)
-- [Composing SVG with generated raster material](./skills/beautify-github-readme/references/hybrid-svg-production.md)
-- [Producing GitHub-safe README motion](./skills/beautify-github-readme/references/motion-production.md)
-
-<p align="center">
-  <img src="./assets/readme/en/workflow.svg" width="100%" alt="Understand the project, set the direction, structure the content, build the visuals, and review the preview.">
-</p>
-
-The process keeps three promises: use real project material, never invent capabilities, and never publish without explicit approval.
-
-<p align="center">
-  <img src="./assets/readme/en/section-use.svg" width="100%" alt="03 Send the repository to your Agent.">
-</p>
-
-**Option 1 · Install from the command line**
-
-```bash
-npx skills add oil-oil/beautify-github-readme
-```
-
-**Option 2 · Ask your Agent to install it**
-
-```text
-Install this Skill: https://github.com/oil-oil/beautify-github-readme
-```
-
-The Skill has two explicit modes:
-
-| Mode | What it changes | What it leaves alone by default |
-| --- | --- | --- |
-| Whole README | Reading order, copy hierarchy, proof, Markdown, and the complete visual system | It will not commit, push, or publish without approval |
-| Asset-only | A static SVG hero, section headers, workflow, badge, diagram, or an optional GitHub-safe GIF with SVG source | It will not edit README copy, order, image references, or links |
-
-If the request already states the scope, the Skill starts directly. If a user only says “beautify this repository” or provides a repository URL, the Agent asks:
-
-```text
-Would you like me to improve the whole README or only create visual assets?
-If asset-only, do you need a hero, section headers, workflow, badge, motion graphic, or a coordinated set?
-```
-
-**Whole-README mode**
-
-```text
-Use $beautify-github-readme to redesign this repository homepage around its real project theme.
-Show me a local preview first and do not push anything.
-```
-
-**Asset-only mode**
-
-```text
-Use $beautify-github-readme to keep the README unchanged and create one animated GIF hero with its SVG source.
-Derive the style from the existing project and show me the rendered preview first.
-```
-
-Reading a README for context does not grant permission to edit it. In asset-only mode, embedding the new assets requires a separate, explicit approval.
-
-You can also request a read-only audit:
-
-```text
-Use $beautify-github-readme to audit this README for clarity, hierarchy, trust, and maintenance cost. Do not edit files.
-```
-
-Whole-README mode delivers a local preview, visual assets, and a README diff. Asset-only mode delivers source assets, rendered previews, optional GIF derivatives, and embed snippets. Commits, pushes, PRs, and publishing always require explicit authorization.
-
-<p align="center">
-  <a href="https://x.com/I_am_oil_oil"><img src="./assets/readme/follow-on-x.svg" width="420" alt="Follow the maker on X at @I_am_oil_oil"></a>
-</p>
-
-MIT License
 
 ---
 
-This README is also a working example: it combines a project-native hero, a theme wall, real adoption proof, section transitions, and readable Markdown instead of rasterizing the whole page.
+## 🍬 关于糖糖it
+
+嗨，我是**糖糖it**！一位热爱设计的独立开发者和 UI 设计师。我相信一个好的开源项目值得一个第一眼就能让人理解的首页。这个 Skill 是我为所有开源创作者准备的礼物——用专业的视觉设计，让你的项目在 GitHub 上脱颖而出。
+
+我的设计理念很简单：
+- **不套模板** — 每个项目的视觉都应该来自项目本身
+- **工程友好** — 产出物在 GitHub 上可靠渲染，易于维护
+- **可选动效** — 纯 SVG 默认，动画 GIF 需要你主动选择
+
+---
+
+## 🎨 Banner 样式集合
+
+Skill 内置 **7 套精选 Banner 样式模板**，智能体可直接选择并生成定制 SVG。以下为各样式预览：
+
+<p align="center">
+  <strong>1. 糖果新野兽派</strong> — 粗黑边框、糖果配色、白色大卡片 ☀️
+  <br>
+  <img src="./assets/readme/banners/candy-brutalist.svg" width="80%" alt="糖果新野兽派 Banner 预览">
+</p>
+
+<p align="center">
+  <strong>2. 极简暗色</strong> — 深色 GitHub 风、网格背景、蓝绿强调 🌙
+  <br>
+  <img src="./assets/readme/banners/minimal-dark.svg" width="80%" alt="极简暗色 Banner 预览">
+</p>
+
+<p align="center">
+  <strong>3. 赛博朋克霓虹</strong> — 深黑网格、品红/青霓虹发光、等宽字体 🌙
+  <br>
+  <img src="./assets/readme/banners/cyberpunk-neon.svg" width="80%" alt="赛博朋克霓虹 Banner 预览">
+</p>
+
+<p align="center">
+  <strong>4. 清新薄荷</strong> — 薄荷绿柔底、24px圆角、软阴影、治愈风 ☀️
+  <br>
+  <img src="./assets/readme/banners/fresh-mint.svg" width="80%" alt="清新薄荷 Banner 预览">
+</p>
+
+<p align="center">
+  <strong>5. 渐变现代</strong> — 紫粉渐变、玻璃拟态、光晕装饰 🌑
+  <br>
+  <img src="./assets/readme/banners/gradient-modern.svg" width="80%" alt="渐变现代 Banner 预览">
+</p>
+
+<p align="center">
+  <strong>6. 代码终端风</strong> — 终端窗口模拟、命令行界面 🌙
+  <br>
+  <img src="./assets/readme/banners/code-terminal.svg" width="80%" alt="代码终端风 Banner 预览">
+</p>
+
+<p align="center">
+  <strong>7. 几何抽象</strong> — 大胆几何色块、高对比度、极简主义 ☀️
+  <br>
+  <img src="./assets/readme/banners/geometric-abstract.svg" width="80%" alt="几何抽象 Banner 预览">
+</p>
+
+> 模板位于 `assets/readme/banners/`，智能体读取模板后按项目信息定制输出。
+
+---
+
+## 🚀 快速开始
+
+### 在智能体中使用
+
+在智能体中直接描述你的需求即可：
+
+```
+使用 $tangtang-readme 的极简暗色样式为我的项目生成一个 Banner
+```
+
+```
+使用 $tangtang-readme 为我的 CLI 工具创建 Banner，用代码终端风样式
+```
+
+```
+使用 $tangtang-readme 查看所有 Banner 样式，帮我为项目选一个合适的
+```
+
+### 工作模式
+
+Skill 支持两种模式：
+
+1. **README 全模式** — 整体改造 README 的信息架构、文案和视觉系统
+2. **仅资产模式** — 只创建视觉资产（Hero、章节头、流程图、徽章），不改动 README
+
+### 视觉实现
+
+对于 Hero 等大型视觉资产，你可以选择：
+
+- **纯 SVG** — 完全矢量，轻量锐利，最适合排版、图表、图标
+- **混合 SVG 合成** — SVG 排版 + AI 生成主体图像，适合角色和复杂材质
+
+动画 GIF 是 opt-in 选项，默认不生成。
+
+---
+
+## 📁 项目结构
+
+```
+tangtang-readme/
+├── assets/readme/
+│   ├── hero.svg                    # 项目自身 Hero Banner
+│   └── banners/                    # ✨ 7套 Banner 样式模板
+│       ├── candy-brutalist.svg     # 糖果新野兽派
+│       ├── minimal-dark.svg        # 极简暗色
+│       ├── cyberpunk-neon.svg      # 赛博朋克霓虹
+│       ├── fresh-mint.svg          # 清新薄荷
+│       ├── gradient-modern.svg     # 渐变现代
+│       ├── code-terminal.svg       # 代码终端风
+│       └── geometric-abstract.svg  # 几何抽象
+├── skills/tangtang-readme/
+│   ├── SKILL.md                    # 核心 Skill 定义
+│   ├── agents/openai.yaml          # Agent 配置
+│   ├── references/                 # 设计指南
+│   │   ├── content-architecture.md # 内容架构指南
+│   │   ├── github-readme-canvas.md # GitHub 画布规范
+│   │   ├── hybrid-svg-production.md # 混合合成指南
+│   │   ├── motion-production.md    # 动画制作指南
+│   │   ├── project-native-hero.md  # 项目原生 Hero 设计
+│   │   ├── showcase-contribution.md # 展示贡献指南
+│   │   ├── svg-production.md       # SVG 制作规范
+│   │   └── theme-direction.md      # 主题选择与方向
+│   └── scripts/
+│       ├── audit_readme.py         # README 审计工具
+│       └── render_motion_gif.py    # GIF 渲染工具
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+---
+
+## 🛠️ 工具脚本
+
+### 审计 README
+```bash
+python3 skills/tangtang-readme/scripts/audit_readme.py /path/to/README.md
+```
+检查图片引用完整性、SVG 兼容性（viewBox、title、不安全标签）。
+
+### 渲染动画 GIF
+```bash
+python3 skills/tangtang-readme/scripts/render_motion_gif.py input.svg output.gif --spec motion.json
+```
+将带命名图层的 SVG 和 JSON 动效规格渲染为 GitHub 安全的动画 GIF。
+
+依赖：Pillow (`pip install Pillow`)，以及 resvg / rsvg-convert / Inkscape / cairosvg 之一用于 SVG 渲染。
+
+---
+
+## ✨ 质量承诺
+
+糖糖it对每个产出都有严格的质量标准：
+
+- ✅ 首屏无需先验知识即可理解项目
+- ✅ 设计看起来是项目原生的，不是模板
+- ✅ Hero 素材来自项目本身，不是通用装饰
+- ✅ 真实证明出现在抽象声明之前
+- ✅ 图片失败时内容仍然有效（alt 文本、命令、链接）
+- ✅ README 变得更短或更清晰，不只是更花哨
+- ✅ GitHub 明暗模式下都可读
+- ✅ 移动端 360px 宽度下关键内容可读
+
+---
+
+## 📝 许可证
+
+MIT License - 详见 [LICENSE](LICENSE) 文件。
+
+你可以自由使用这个 Skill 美化任何项目（包括商业项目）。署名「糖糖it出品」完全可选，不是使用的必要条件。
+
+---
+
+<p align="center">
+  Made with 🍬 by <strong>糖糖it</strong>
+</p>

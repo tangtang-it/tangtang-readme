@@ -1,0 +1,13 @@
+interface:
+  display_name: "糖糖it README 美化坊"
+  short_description: "糖糖it专属 GitHub README 美化：6套主题，纯SVG/混合合成/动画GIF"
+  default_prompt: "使用 $tangtang-readme 来美化我的 GitHub README 或创建视觉资产；先问我想要整体改造还是仅资产，然后当纯SVG和混合SVG合成都适合时，解释并确认实现方式。"
+  author: "糖糖it"
+  version: "2.0.0"
+  themes:
+    - candy-brutalist
+    - candy-brutalist-dark
+    - sugar-professional
+    - purple-gold-premium
+    - cyberpunk-neon
+    - fresh-mint

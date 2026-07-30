@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">项目标题 Banner - 糖果新野兽派</title>
+  <desc id="desc">4px粗黑边框、硬阴影、糖果粉蓝绿黄配色的新野兽派风格 GitHub README Banner</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF5"/>
+      <stop offset="50%" stop-color="#FFE8F7"/>
+      <stop offset="100%" stop-color="#E0F9FF"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FE90E8"/><stop offset="100%" stop-color="#FF6BB5"/></linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#C0F7FE"/><stop offset="100%" stop-color="#7DEBFB"/></linearGradient>
+    <linearGradient id="yellow" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#F7CB46"/><stop offset="100%" stop-color="#FFB800"/></linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#99E885"/><stop offset="100%" stop-color="#66D94F"/></linearGradient>
+    <linearGradient id="cream" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFDC8B"/><stop offset="100%" stop-color="#FFC857"/></linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <!-- 装饰块 -->
+  <g transform="translate(60,60)"><rect width="60" height="60" fill="url(#pink)" stroke="#000" stroke-width="3.5"/></g>
+  <g transform="translate(1080,50)"><rect width="55" height="55" fill="url(#blue)" stroke="#000" stroke-width="3.5" transform="rotate(12)"/></g>
+  <g transform="translate(70,310)"><rect width="50" height="50" fill="url(#green)" stroke="#000" stroke-width="3.5" transform="rotate(-10)"/></g>
+  <g transform="translate(1060,320)"><rect width="52" height="52" fill="url(#yellow)" stroke="#000" stroke-width="3.5" transform="rotate(8)"/></g>
+  <circle cx="200" cy="80" r="14" fill="url(#yellow)" stroke="#000" stroke-width="3"/>
+  <circle cx="1000" cy="100" r="16" fill="url(#green)" stroke="#000" stroke-width="3"/>
+  <circle cx="170" cy="340" r="12" fill="url(#pink)" stroke="#000" stroke-width="2.5"/>
+  <circle cx="1030" cy="360" r="13" fill="url(#cream)" stroke="#000" stroke-width="2.5"/>
+  <g transform="translate(300,75)"><rect x="0" y="0" width="600" height="270" fill="#FFF" stroke="#000" stroke-width="4"/>
+    <rect x="0" y="0" width="600" height="14" fill="url(#pink)"/>
+  </g>
+  <rect x="45" y="70" width="28" height="28" fill="url(#cream)" stroke="#000" stroke-width="3"/>
+  <rect x="1127" y="70" width="28" height="28" fill="url(#pink)" stroke="#000" stroke-width="3"/>
+  <rect x="45" y="322" width="28" height="28" fill="url(#green)" stroke="#000" stroke-width="3"/>
+  <rect x="1127" y="322" width="28" height="28" fill="url(#blue)" stroke="#000" stroke-width="3"/>
+  <text x="600" y="180" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="84" font-weight="900" text-anchor="middle" fill="#000" letter-spacing="-0.02em">项目名称</text>
+  <g transform="translate(390,210)"><rect x="0" y="0" width="420" height="46" fill="url(#yellow)" stroke="#000" stroke-width="3.5"/></g>
+  <text x="600" y="244" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#000" letter-spacing="0.1em">一句话价值主张</text>
+  <text x="600" y="300" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="#555">简短描述项目解决的问题</text>
+  <circle cx="85" cy="60" r="4" fill="#000" opacity="0.3"/>
+  <circle cx="1115" cy="50" r="3" fill="#000" opacity="0.3"/>
+  <circle cx="65" cy="360" r="3" fill="#000" opacity="0.3"/>
+  <circle cx="1135" cy="370" r="4" fill="#000" opacity="0.3"/>
+</svg>
