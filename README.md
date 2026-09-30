@@ -108,6 +108,15 @@ Skill 支持两种模式：
 
 ---
 
+## 💡 仓库配套最佳实践（关于栏与 SEO 外链）
+
+高颜值的 README 只是第一步，完善 GitHub 仓库的关于栏（About）配置能为项目带来极高的搜索引擎权重和流量闭环：
+
+- **GitHub 仓库关于栏挂链（权重极高）**：
+  - 进入你的 GitHub 仓库（例如 `tangtang-it/mdpreview`）；
+  - 点击右侧齿轮（**About Settings**），在 **Website** 填入 `https://mdpreview.dev/`；
+  - 在 **Topics** 添加标签：`markdown`, `markdown-viewer`, `developer-tools`, `gfm`。
+
 ## 📁 项目结构
 
 ```
