@@ -13,7 +13,13 @@
 
 ## 🍬 关于糖糖it
 
-嗨，我是**糖糖it**！一位热爱设计的独立开发者和 UI 设计师。我相信一个好的开源项目值得一个第一眼就能让人理解的首页。这个 Skill 是我为所有开源创作者准备的礼物——用专业的视觉设计，让你的项目在 GitHub 上脱颖而出。
+嗨，我是**[糖糖it](https://tangtangit.com)**！一位热爱设计的独立开发者、UI 设计师与技术视频内容创作者。我相信一个好的开源项目值得一个第一眼就能让人理解的首页。这个 Skill 是我为所有开源创作者准备的礼物——用专业的视觉设计，让你的项目在 GitHub 上脱颖而出。
+
+- 🌐 **技术知识库 / 个人博客**：[tangtangit.com](https://tangtangit.com)
+- 🛠️ **精选独立开发作品**：
+  - 🚀 **[MDPreview (mdpreview.dev)](https://mdpreview.dev/)** — 零延迟、100% 浏览器本地隐私保护的极简 Markdown 实时预览与在线编辑器
+  - 🎙️ **[Free Online TTS Studio](https://tts.tangtangit.com/)** — 免登录、开箱即用的高品质神经 AI 文本转语音在线工具
+  - 🌅 **[Morning Quote Card Maker](https://morning-quote.com/)** — 唯美晨曦早安问候与高质量社交图文卡片生成器
 
 我的设计理念很简单：
 - **不套模板** — 每个项目的视觉都应该来自项目本身
